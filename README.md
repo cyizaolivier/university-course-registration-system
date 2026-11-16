@@ -162,26 +162,23 @@ src/test/java/com/university/academic/EntityMappingTest.java
 5. To run the mapping tests: `mvn test`
 6. In pgAdmin, refresh `university_academic_db > Schemas > public > Tables`. There should be 7 tables: `departments`, `lecturers`, `students`, `student_profiles`, `courses`, `lecturer_courses` and `registrations`.
 
+
 ## 8. Screenshots
 
-All the screenshots are in `docs/screenshots/`.
+All project screenshots are stored in `docs/screenshots/`.
 
-Hibernate creating the tables in the console:
+### 1. Hibernate Creating Database Tables
+![Hibernate Create Tables](docs/screenshots/01-hibernate-create-tables.png)
 
-[Hibernate Create Tables](docs/screenshots/01-hibernate-create-tables.png)
-
-The 7 tables in pgAdmin:
-
+### 2. PostgreSQL Tables in pgAdmin
 ![pgAdmin Tables List](docs/screenshots/02-pgadmin-tables-list.png)
 
-The ERD and foreign keys in pgAdmin:
-
+### 3. Entity Relationship Diagram (ERD)
 ![pgAdmin ERD Diagram](docs/screenshots/03-pgadmin-erd-diagram.png)
 
-`mvn test` passing (4 tests):
-
+### 4. Maven Tests Passing
 ![Maven Test Passing](docs/screenshots/04-mvn-test-passing.png)
 
-Sample rows in `registrations` and `lecturer_courses` after running the seed profile:
-
+### 5. Sample Database Records
 ![Seeded Sample Data](docs/screenshots/05-seeded-sample-data.png)
+
