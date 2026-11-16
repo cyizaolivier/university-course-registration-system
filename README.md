@@ -168,7 +168,7 @@ All the screenshots are in `docs/screenshots/`.
 
 Hibernate creating the tables in the console:
 
-![Hibernate Create Tables](docs/screenshots/01-hibernate-create-tables.png)
+[Hibernate Create Tables](docs/screenshots/01-hibernate-create-tables.png)
 
 The 7 tables in pgAdmin:
 
